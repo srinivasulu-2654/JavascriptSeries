@@ -30,3 +30,28 @@ let myObj =
 const myFunction = function(){
     console.log("Hello world");
 }
+
+// // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+// ***********************************************
+
+// Stack(used by Primitive data types), heap(Non-primitive)
+
+let oneName = "sreenu"
+
+let anotherName = oneName
+anotherName = "chaiaurcode"
+
+console.log(oneName)
+console.log(anotherName);
+
+let userOne = {
+    email : "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "sreenu@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
