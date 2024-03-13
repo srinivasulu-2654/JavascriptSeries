@@ -20,8 +20,28 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 // "" => false
 // "hitesh" => true;
 
-let someNumber = 33
-let numberInString = String(someNumber);
-console.log(numberInString);
-console.log(typeof numberInString)
+// let someNumber = 33
+// let numberInString = String(someNumber);
+// console.log(numberInString);
+// console.log(typeof numberInString)
 
+//************ Operations *******************
+
+let value = 3
+let negValue = -value;
+// console.log(negValue);
+
+ let str1 = "Hello"
+ let str2 = "Sreenu"
+
+ let str3 = str1 + str2
+ console.log(str3)
+
+//  console.log("1" + 2);  //12
+//  console.log(1 + "2")  // 12
+//  console.log("1" + 2 + 2); // 122
+//  console.log(1 + 2 + "2"); // 32
+
+ 
+
+  
