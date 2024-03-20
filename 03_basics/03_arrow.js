@@ -56,5 +56,5 @@ console.log(addTwo(2, 3));
 
 const myArray = [1,5,3,7,8]
 
-myArray.forEach(myArray)
+myArray.forEach(myArray) 
 
